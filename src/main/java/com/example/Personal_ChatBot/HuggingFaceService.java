@@ -8,6 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class HuggingFaceService {
 
+
     private final RestTemplate restTemplate;
 
     @Value("${huggingface.api.url}")
