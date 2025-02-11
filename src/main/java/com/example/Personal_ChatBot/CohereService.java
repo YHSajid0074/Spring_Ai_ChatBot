@@ -55,7 +55,7 @@ public class CohereService {
                 // Build the request body for the Cohere API
                 String requestBody = "{\n" +
                         "  \"prompt\": \"" + question + "\",\n" +
-                        "  \"max_tokens\": 50,\n" +
+                        "  \"max_tokens\": 250,\n" +
                         "  \"temperature\": 0.7\n" +
                         "}";
 

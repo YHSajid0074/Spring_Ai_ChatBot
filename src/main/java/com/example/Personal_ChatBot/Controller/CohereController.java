@@ -14,6 +14,6 @@ public class CohereController {
 
     @GetMapping("/ask")
     public String askCreator(@RequestParam String question) {
-        return cohereService.askCreator(question);
+        return cohereService.askCreator(question+"just write summery");
     }
 }
