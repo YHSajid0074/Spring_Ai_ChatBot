@@ -39,7 +39,7 @@ public class CohereService {
         // Check if the question contains any of the creator-related keywords
         for (String keyword : creatorKeywords) {
             if (question.toLowerCase().contains(keyword)) {
-                response = "I am developed by Yeamim Hossain Sajid.He is an exceptional individual with a sharp mind and a passion for creating innovative solutions.";
+                response = "I am developed by Yeamim Hossain Sajid and Md Sifat Bin Jibon.They both are currently Studying in United International University";
                 break;
             }
         }
